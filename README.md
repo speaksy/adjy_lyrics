@@ -21,6 +21,7 @@ in order that you'll need to run them when starting
 - `main.py`: entry point for the whole thing -- chooses a lyrics, searches images for the lyric, makes a tweet
     - `convolution.py`: selects which lyrics to look for, treats [tesseract](https://github.com/tesseract-ocr/tesseract) like a convolution kernel and runs it over lyric images to find where the lyrics reside
         - `string_align.py`: used for matching tesseract output with ground truth lyrics -- this is hand-rolled and i'm proud of it
+        - `strutils.py`: convenience functions for finding aesthetically pleasing and tweet-sized lyrics
     - `tweet.py`: nice wrapper module for making tweets :)
 
 ### the ALGORITHM
