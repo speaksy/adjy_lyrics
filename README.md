@@ -7,9 +7,7 @@
 1. whatever is listed in `requirements.txt`
 2. [pdf2img requires poppler](https://pdf2image.readthedocs.io/en/latest/installation.html)
 3. if you want to run it yourself you'll also need a twitter api key, etc. i'm not documenting that shit here
-
-do not ask me why the poppler binary i use is for windows when everything else
-assumes it runs on linux -- the answer is that i'm stupid and lazy
+4. things probably only run right on linux
 
 ## here is how it works
 
