@@ -1,5 +1,3 @@
-# from Bio import pairwise2
-# from Bio.pairwise2 import format_alignment
 import random
 import os, os.path
 import time
@@ -12,7 +10,6 @@ import string_align
 from strutils import StrIndexer
 
 # Globals
-tesseract_path = os.path.abspath(r'E:\Program Files\Tesseract-OCR\tesseract.exe')
 image_dir = r'the_text'
 output_dir = r'output'
 now = time.localtime(time.time())
@@ -224,8 +221,6 @@ def write_lyric(img, lyric):
 
 def generate_tweet_content(conv_window_size=(1200, 900), conv_step_size=(200, 200)):
   # Set up path to tesseract executable
-  #pytess.pytesseract.tesseract_cmd = tesseract_path
-  
   random.seed()
 
   # Choose an image
