@@ -1,0 +1,7 @@
+access_token.txt
+*.png
+*.tif
+*.pdf
+__pycache__
+poppler-22.04.0
+output

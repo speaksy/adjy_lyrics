@@ -1,0 +1,6 @@
+numpy==1.19.5
+numba==0.53.1
+opencv-python>=3.4.13.47
+requests-oauthlib>=3.2.2
+pytesseract>=0.3.8
+pdf2image>=1.16.2
